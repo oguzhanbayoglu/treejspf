@@ -1,9 +1,10 @@
-import "./App.css";
+import { Model, ComputerCanvas } from "./Model";
 
 function App() {
   return (
-    <div className="bg-black">
-      <p className=" m-4 font-normal hover:font-bold text-white">a</p>
+    <div className="p-4">
+      <Model />
+      <ComputerCanvas />
     </div>
   );
 }
